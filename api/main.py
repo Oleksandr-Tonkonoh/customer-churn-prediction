@@ -42,6 +42,11 @@ def health():
     return {"status": "ok"}
 
 
+@app.get("/version")
+def version():
+    return {"version": "1.0.0"}
+
+
 @app.post("/predict", response_model=PredictionResponse)
 def predict_customer_churn(customer: Customer):
 
