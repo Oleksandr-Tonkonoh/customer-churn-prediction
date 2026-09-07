@@ -102,15 +102,15 @@ sessions.csv
 
 Customers ETL:
 
-![Customers ETL](images/glue-customers.png)
+![Customers ETL](images/glue-customers-etl.png)
 
 Orders ETL:
 
-![Orders ETL](images/glue-orders.png)
+![Orders ETL](images/glue-orders-etl.png)
 
 Sessions ETL:
 
-![Sessions ETL](images/glue-sessions.png)
+![Sessions ETL](images/glue-sessions-etl.png)
 
 ## Project Structure
 
@@ -145,6 +145,14 @@ glue/
 ├── orders-etl.py
 
 └── sessions-etl.py
+
+images/
+
+├── images/glue-customers-etl.png
+
+├── images/glue-orders-etl.png
+
+└── images/glue-sessions-etl.png
 
 sql/
 
